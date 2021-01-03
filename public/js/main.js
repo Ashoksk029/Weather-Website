@@ -1,5 +1,3 @@
-console.log("Client side program is loaded")
-
 const weatherform = document.querySelector('form')
 const search = document.querySelector('input')
 const content1 = document.querySelector('#msg-1')
