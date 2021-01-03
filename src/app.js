@@ -6,7 +6,7 @@ const forecast = require('./utils/forecast')
 const { RSA_PKCS1_OAEP_PADDING } = require('constants')
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 
 //Setting Path for Express
 const publipath = path.join(__dirname,'../public')
@@ -37,7 +37,7 @@ app.get('/about',(req,res)=>{
 
 app.get('/help',(req,res)=>{
     res.render('help',{
-        title:"Help Page",
+        title:"Help",
         desc:"Contact our chief",
         name:"Created by Ashok"
     })
