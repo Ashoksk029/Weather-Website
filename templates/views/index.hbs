@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/img/weather-icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <div class="main">
+         {{>header}}
+         <p>Come and See the Weather!!!</p>
+         <form>
+             <input placeholder="Location">
+             <button>Search</button>
+         </form>
+         <p id="msg-1"></p>
+         <p id="msg-2"></p>
+    </div>
+   
+    {{>footer}}
+        <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.f{
+    color:black;
+    font-size: 75px;
+}
+body{
+    background-color:skyblue;
+    font-family: Arial;
+    color: #333333;
+    margin: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main{
+    flex-grow: 1;
+}
+.anc a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:deeppink;
+   
+    
+}
+.anc a:hover{
+    color: gold;
+}
+
+.anc{ margin-bottom: 50px;
+    }
+
+footer{
+    
+    border-top: 1px solid #333333;
+    margin-top: 20px;
+}
+    
+img{
+    width:40% ;
+}
+
+p{
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid blue;
+    padding: 8px;
+    box-shadow: snow;
+}
+
+button{
+    cursor: pointer;
+    color: snow;
+    border: 1px solid blue;
+    background-color:blue;
+    padding: 8px;
+    bottom: snow;
+}
