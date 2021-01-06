@@ -39,7 +39,7 @@ const forecast = (latitude,longitude,callback)=>{
             //     temp: response.body.current.temperature,
             //     location: response.body.location.region+','+response.body.location.country
             // })
-            callback(undefined,body.current.weather_descriptions[0]+". It is "+ body.current.temperature+ " degress. But,It feels like "+ body.current.feelslike+" degrees out...")
+            callback(undefined,body.current.weather_descriptions[0]+". It is "+ body.current.temperature+ " degress. But,It feels like "+ body.current.feelslike+" degrees out. The wind Speed is "+body.current.wind_speed+" Km/hr.")
         }
     })
 
